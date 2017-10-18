@@ -1,0 +1,32 @@
+.white
+{
+    background-colour: white;
+}
+
+.black
+{
+    background-colour: black;
+}
+
+td   /*cells of the table*/
+{
+    border: 2px solid red;
+    height: 28px;
+    width: 28px;
+}
+
+table {
+    border-collapse: collapse;
+   -webkit-user-select: none; /* won't select table*/
+}
+
+
+.inverse .black
+{
+    background-colour: white;
+}
+
+.inverse .white
+{
+    background-color: black;
+}
