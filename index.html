@@ -3,12 +3,26 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Black & wite</title>
+    <title>MineSweeper</title>
     <link href="css/style.css" rel="stylesheet" type='text/css'>
+
 
 </head>
 <body>
-    <script src="js/tableBlackWhite.js"></script>
-    <p><input type="button" value="Change the colors of all cells" onclick="ChangeColors()"></p>
+
+    <div class="field">
+    </div>
+
+
+    <script type="text/x-template" id="template-popup">
+        <div class="popup-body">
+            <p>{{text}}</p>
+            <p><button class="button" onclick="page.game_interface.delete_popup_menu()">New game</button></p>
+        </div>
+    </script>
+
+    <script src="js/minesweeper.js"></script>
+
+
 </body>
 </html>
