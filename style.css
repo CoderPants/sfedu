@@ -1,5 +1,5 @@
-.field td   /*cells of the table*/
-{
+
+.field td   /*cells of the table*/  {
     background: linear-gradient(to bottom, #c0c0c0,#808080);
     border: 2px solid red;
     height: 28px;
@@ -21,9 +21,35 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 50%;/*make a circle */
-    background: black;
     left: 10px;
-    bottom: 10px;
-    content:"";
+    bottom: 15px;
+    content:"\2691";
+}
+
+.popup-body{
+    position:absolute;
+}
+
+.button {
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*menu*/
+div.popup-body{
+    position: fixed;
+    left: 36%;
+    top: 37%;
+    color: black;
+    width: 250px;
+    height: 150px;
+    border: 2px solid red;
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #c0c0c0,#808080);
 }
